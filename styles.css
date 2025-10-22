@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+#container {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+#container::before {
+  content: "This text appears before the container content.";
+  display: block;
+  color: #f00;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#container::after {
+  content: "This text appears after the container content.";
+  display: block;
+  color: #f00;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
