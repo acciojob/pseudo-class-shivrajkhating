@@ -1,20 +1,17 @@
-/*  your css code here. If applicable */
 #container {
-  margin: 20px;
-  font-size: 18px;
-  text-align: center;
+    margin: 20px;
 }
 
-/* Before pseudo-element */
+/* Before element */
 #container::before {
-  content: "🌸 Before Text 🌸 ";
-  color: #f00;
-  font-size: 20px;
+    content: "Before Element ";
+    color: #f00;
+    font-size: 20px;
 }
 
-/* After pseudo-element */
+/* After element */
 #container::after {
-  content: " 🌸 After Text 🌸";
-  color: #f00;
-  font-size: 20px;
+    content: " After Element";
+    color: #f00;
+    font-size: 20px;
 }
