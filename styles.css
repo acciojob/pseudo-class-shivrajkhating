@@ -2,16 +2,16 @@
     margin: 20px;
 }
 
-/* Before element */
+/* Insert content before the container */
 #container::before {
-    content: "Before Element ";
+    content: "Before Content ";
     color: #f00;
     font-size: 20px;
 }
 
-/* After element */
+/* Insert content after the container */
 #container::after {
-    content: " After Element";
+    content: " After Content";
     color: #f00;
     font-size: 20px;
 }
